@@ -1,0 +1,206 @@
+{
+	"id": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+	"name": "FriendsBook",
+	"description": "",
+	"order": [
+		"873efef6-56cc-fe8f-5839-a4a58d9cf6ce",
+		"1e1c164b-dd68-e077-7fc9-941722e12d5d",
+		"0aa3df4a-7e39-6f95-4cbf-5fdd4c6721ef",
+		"b204e548-2340-8382-ad50-f817ef5ccd5f",
+		"929e80fd-db48-b105-12f0-dc267983a847",
+		"fa663cf5-eaf5-d827-c7f3-da873898de10"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517372853960,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0aa3df4a-7e39-6f95-4cbf-5fdd4c6721ef",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/mutualfriends",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "subscribe",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517373960045,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"john@example.com\",\n      \"siva@example.com\"\n    ]\n}"
+		},
+		{
+			"id": "1e1c164b-dd68-e077-7fc9-941722e12d5d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/mutualfriends",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "mutualfriends",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517372998641,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"john@example.com\",\n      \"siva@example.com\"\n    ]\n}"
+		},
+		{
+			"id": "873efef6-56cc-fe8f-5839-a4a58d9cf6ce",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/makefriends",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "makefriend",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517372876570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"john@example.com\",\n      \"siva@example.com\"\n    ]\n}"
+		},
+		{
+			"id": "929e80fd-db48-b105-12f0-dc267983a847",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/block",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "updates",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517381584667,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"sinu@example.com\",\n      \"john@example.com\"\n    ]\n}"
+		},
+		{
+			"id": "b204e548-2340-8382-ad50-f817ef5ccd5f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/subscribe",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "block",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517375136921,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"andy@example.com\",\n      \"seenu@example.com\"\n    ]\n}"
+		},
+		{
+			"id": "fa663cf5-eaf5-d827-c7f3-da873898de10",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/managefriends/makefriends",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "176951c0-a0cc-2918-0ef5-a5cfa1f06630",
+			"data": [],
+			"dataMode": "raw",
+			"name": "retrievefriends",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517459101473,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"friends\":\n    [\n      \"siva@example.com\",\n      \"andy@example.com\"\n    ]\n}"
+		}
+	]
+}
