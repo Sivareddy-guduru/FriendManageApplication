@@ -1,12 +1,12 @@
 
-Instructions to build
+Instructions to run
 
 Run below command from root directory of this application:
 
 java -jar target/FriendManageApplication-0.0.1-SNAPSHOT.jar
 
 
-if you want build again
+if you want build again:
 mvn clean install
 
 
@@ -18,3 +18,6 @@ Please check
 3)block-api.png                     ---- to block
 4)subscribe-api.png                 ---- to subscribe
 5)updates-recipients-list-api.png   ----- list for updates recipients
+
+or
+Import FriendsBook.postman_collection to postman and test
